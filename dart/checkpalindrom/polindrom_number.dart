@@ -1,4 +1,4 @@
-/// write a program to check the given number is polindrom or not
+/// write a program to check the given number is palindrom or not
 /// A palindromic number is a number that remains the same when its digits are reversed. For example, 121 is a palindromic number, while 123 is not.
 /// Input: 121
 /// Output: true
