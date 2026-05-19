@@ -5,6 +5,22 @@ bool isPolindrom(dynamic input) {
   return str == reversedStr;
 }
 
+/// without using built in function
+bool isPolindromWithoutBuiltIn(dynamic input) {
+  String str = input.toString();
+  int left = 0;
+  int right = str.length - 1;
+
+  while (left < right) {
+    if (str[left] != str[right]) {
+      return false;
+    }
+    left++;
+    right--;
+  }
+  return true;
+}
+
 void main() {
   int num = 121;
   print(isPolindrom(num)); // Output: true
